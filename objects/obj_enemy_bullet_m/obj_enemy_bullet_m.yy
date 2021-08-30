@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "spr_enemy_bullet_m_ice",
+    "path": "sprites/spr_enemy_bullet_m_ice/spr_enemy_bullet_m_ice.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_enemy_bullet",
+    "path": "objects/obj_enemy_bullet/obj_enemy_bullet.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_enemy_bullet_m","path":"objects/obj_enemy_bullet_m/obj_enemy_bullet_m.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_enemy_bullet_m","path":"objects/obj_enemy_bullet_m/obj_enemy_bullet_m.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"bullet_speed","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"objectId":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"bullet_lifetime","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"objectId":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"value":"300","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_enemy_bullet_m",
+  "tags": [],
+  "resourceType": "GMObject",
+}
